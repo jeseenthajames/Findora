@@ -1,0 +1,23 @@
+{
+  "name": "findora",
+  "version": "1.0.0",
+  "description": "Findora — Campus Lost-and-Found Management System (MERN)",
+  "private": true,
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "dev": "node -e \"console.log('Use separate terminals: npm run dev:server and npm run dev:client')\"",
+    "build:client": "npm --prefix client run build",
+    "install:all": "npm --prefix client install && npm --prefix server install",
+    "seed": "npm --prefix server run seed",
+    "test": "npm --prefix server run test"
+  },
+  "keywords": [
+    "findora",
+    "mern",
+    "campus",
+    "lost-and-found"
+  ],
+  "author": "Findora Team",
+  "license": "MIT"
+}
